@@ -6,7 +6,7 @@
 # For numbers which are multiples of both three and five it prints "FizzBuzz".
 
 fizzbuzz = []
-for i in range(1, 101):
+for i in range(1, 200):
     if i % 3 == 0 and i % 5 == 0:
         fizzbuzz.append("FizzBuzz")
     elif i % 3 == 0:
@@ -16,3 +16,4 @@ for i in range(1, 101):
     else:
         fizzbuzz.append(i)
 print(fizzbuzz)
+
